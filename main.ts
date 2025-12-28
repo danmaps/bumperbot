@@ -40,4 +40,5 @@ input.onGesture(Gesture.Shake, function () {
 })
 music.setVolume(50)
 music.magicWand.play()
+input.setAccelerometerRange(AcceleratorRange.OneG)
 light.showAnimation(light.cometAnimation, 5000)
