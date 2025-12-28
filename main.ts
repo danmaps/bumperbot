@@ -38,6 +38,6 @@ input.onGesture(Gesture.Shake, function () {
     crickit.motor2.run(50)
     crickit.motor1.run(50)
 })
-music.setVolume(20)
+music.setVolume(50)
 music.magicWand.play()
 light.showAnimation(light.cometAnimation, 5000)
